@@ -1,26 +1,23 @@
-const numbers = [2, 4, 6, 8, 3];
+// const numbers = [2, 4, 6, 8, 3];
 // const output = [];
 // for (const number of numbers) {
 //   const dubble = number * 2;
 //   output.push(dubble);
 // }
 // console.log(output);
-function getDubbles(numbers) {
-  const output = [];
-  for (const number of numbers) {
-    const dubble = dubbleIt(number);
-    output.push(dubble);
-  }
-  return output;
-}/**
-1.Get an array!
-2.for elements of the array do something
-3.store the result in an new ARray
-4.return the result array!
-*/
-function dubbleItOld(num){
-    return num * 2;
-}
+// function getDubbles(numbers) {
+//   const output = [];
+//   for (const number of numbers) {
+//     const dubble = dubbleIt(number);
+//     output.push(dubble);
+//   }
+//   r/eturn output;
+// }/**
+
+// function dubbleItOld(num){
+    // return num * 2;
+// }
+const numbers = [2, 4, 6, 8, 3];
 const dubbleIt = num => num * 2;
 const makeDubble = numbers.map(dubbleIt);
 const makeDubbleDrict = numbers.map(num => num * 2);

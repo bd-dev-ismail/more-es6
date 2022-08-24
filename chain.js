@@ -13,7 +13,7 @@ const data = {
     ]
 }
 const fristJob = data.data[0].job;
-// console.log(data.data[0].job);
+console.log(data.data[0].job);
 const user2 = {
     id: 343,
     name: 'sajib',
