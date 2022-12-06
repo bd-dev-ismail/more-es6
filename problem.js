@@ -71,8 +71,66 @@ for(let i =0; i<people.length; i++){
     sum1 += people[i].age;
 }
 // console.log(sum1);
-
-
+/**
+ * Practice Problem: Access Object values
+ */
+const student = {
+    name: 'frade',
+    age: 38,
+}
+// console.log(student.age);
+/**
+ * Practice Problem: Access Object values
+ */
+const data = {
+    location: [
+        {
+            latitude: '34, 65, 45,66',
+            longatitude: '35.64, 46,46',
+            city: 'Hyderabad',
+            country: 'India',
+        }
+    ]
+};
+const FindCity = data.location[0].city;
+// console.log(data.location[0].city);
+/**
+ * ● Console the value of email
+● Console the value of address
+● Console the value of city
+● Console the value of lat
+● Console the value of company
+name
+ */
+const user = {
+    id: 1,
+    name: "Ismail Hossen",
+    username: "ratul",
+    email: "ismailratul7@gmail.com",
+    address: {
+        street: "Kumira, Sitakunda",
+        suite: "Kazi para",
+        city: "Chittagong",
+        zipcode: '2334545',
+        geo: {
+            lat: "34.455",
+            lng: "34,2342343",
+        }
+    },
+    phone: "01834835454",
+    website: "ismailratul.com",
+    company: {
+        name: "Team Yellow",
+        catchPharse: "Multilayer client -services neural-net",
+        bs: "slf realtime e -markets"
+    }
+};
+/*console.log(user.email);//Email
+console.log(user.address);//Address
+console.log(user.address.city);//City
+console.log(user.address.geo.lat);//Lat
+console.log(user.company.name);//Name of company
+*/
 
 
 
